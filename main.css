@@ -6,6 +6,7 @@
 }
 
 .nav--name {
+  height: 50px;
   display: flex;
   justify-content: center;
   font-size: 25px;
@@ -16,4 +17,19 @@
   text-decoration: none;
   color: black;
   display: none;
+}
+
+.intro--header {
+  text-align: left;
+  font-size: 80px;
+  padding: 20px;
+}
+.intro--body {
+  height: 150px;
+  padding: 20px;
+}
+
+.about--picture {
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=main.css.map */
