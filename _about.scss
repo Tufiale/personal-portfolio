@@ -1,0 +1,15 @@
+.about {
+
+    padding: 20px;
+
+    &--picture {
+        width: 200px;
+        height: auto; 
+        margin: 40px;
+        border-radius: 20px;
+    }
+
+    &--para {
+        font-size: 16px;
+    }
+}

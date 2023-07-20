@@ -1,0 +1,13 @@
+.intro {
+    padding: 20px;
+    
+    &--header {
+        text-align: left;
+        font-size: 60px;
+        height: 250px;
+    }
+
+    &--body {
+        height: 150px;
+    }
+}
