@@ -42,19 +42,32 @@
   display: none;
 }
 
+.portfolio__title {
+  padding-left: 20px;
+  align-items: center;
+  height: 50px;
+}
+.portfolio__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+  padding-left: 20px;
+  height: auto;
+}
+.portfolio--card6 {
+  display: none;
+}
+.portfolio--card5 {
+  display: none;
+}
+.portfolio--card4 {
+  display: none;
+}
+
 * {
   font-family: "Cormorant Garamond", serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-.portfolio {
-  padding: 20px;
-  text-align: center;
-}
-.portfolio__images {
-  align-items: center;
-  width: 200px;
-  margin: 30px;
 }/*# sourceMappingURL=main.css.map */

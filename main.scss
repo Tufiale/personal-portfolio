@@ -2,6 +2,7 @@
 @use "intro.scss";
 @use "about.scss";
 @use "skills.scss";
+@use "portfolio.scss";
 
 * {
     font-family: 'Cormorant Garamond', serif;
@@ -10,13 +11,4 @@
     box-sizing: border-box; 
 }
 
-.portfolio {
-    padding: 20px;
-    text-align: center;
 
-    &__images {
-        align-items: center;
-        width: 200px;
-        margin: 30px;
-    }
-    }
