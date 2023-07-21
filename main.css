@@ -69,6 +69,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  height: 300px;
 }
 .contact__title {
   text-align: center;
@@ -88,4 +89,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
