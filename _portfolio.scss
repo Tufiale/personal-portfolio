@@ -25,3 +25,23 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      padding-left: 35px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    &__card {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-grow: 3;
+    }
+  }
+}

@@ -90,6 +90,20 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills__title {
+    padding: 30px;
+  }
+  .skills__body {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
 .portfolio__title {
   padding-left: 20px;
   align-items: center;
@@ -112,6 +126,23 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio__title {
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .portfolio__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 3;
+  }
+}
 .contact {
   display: flex;
   justify-content: center;
@@ -136,6 +167,16 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .skills-logos {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-logos--image {
+    padding: 20px;
+    width: 75px;
+  }
+}
 * {
   font-family: "Cormorant Garamond", serif;
   padding: 0;
