@@ -9,5 +9,32 @@
 
   &--para {
     font-size: 16px;
+    padding: 10px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    display: grid;
+    grid-template:
+      "title title pic"
+      "title title pic"
+      "para para pic"
+      "para para pic"
+      "para para pic";
+
+    &--title {
+      grid-area: title;
+      padding-left: 35px;
+    }
+
+    &--picture {
+      grid-area: pic;
+    }
+
+    &--para {
+      grid-area: para;
+      padding-left: 35px;
+    }
   }
 }
